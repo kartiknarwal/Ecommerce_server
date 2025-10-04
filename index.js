@@ -17,7 +17,7 @@ cloudinary.v2.config({
 
 const app =express();
 
-const url = `https://ecommerce-server-qmyh.onrender.com`;
+// const url = `https://ecommerce-server-qmyh.onrender.com`;
 const interval = 30000;
 
 function reloadWebsite() {
