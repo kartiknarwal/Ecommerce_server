@@ -18,7 +18,9 @@ const app = express();
 
 // Middlewares
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: "https://ecommerce-frontend-site.vercel.app"
+}));
 
 // Health check route (optional, useful for Render monitoring)
 app.get("/api/health", (req, res) => {
