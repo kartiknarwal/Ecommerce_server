@@ -23,7 +23,7 @@ app.use(express.json());
 // }));
 
 app.use(cors({
-    origin: ["https://ecommerce-frontend-six-vert-45.vercel.app"],
+    origin: ["hhttp://localhost:5173"],
     methods: ["GET","POST","PUT","DELETE","OPTIONS"],
     credentials: true
 }));
